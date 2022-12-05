@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+li span {
+  margin: 10px;
+}
+
+h1 {
+  margin: 20px auto;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: #aeaeae;
+}
+
+
+.title {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.profile {
+  max-width: 400px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.box {
+  background: #eee;
+  padding: 4rem;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+
+.profile span {
+  font-size: 24px;
+}
+
+.profile p {
+  font-size: 18px;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+}
+
+.redes-sociais {
+  display: flex; 
+  justify-content: center;
+}
+
+.redes-sociais li {
+  margin-right: 2rem;
+}
+
+.portfolio {
+  max-width: 886px;
+  box-sizing: border-box;
+}
+
+.portfolio ul {
+  margin-top: 3rem;
+}
+
+.portfolio li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  gap: 1rem;
+  color: #606060;
+}
+
+.portfolio li + li {
+  margin-top: 2rem;
+}
+
+.portfolio img {
+  border-radius: 10px;
+}
+
+.portfolio h2 {
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  font-size: 24px;
+  margin-top: 10vh;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+
+-------------
+
+.footer {
+    display: flex;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    border: 0;
+}
+
+.footer{
+    background-color: #2F3644;
+    border-radius: 5px;
+    border: 2px solid #3E445B;
+    width: 450px;
+    max-width: 100%;
+}
+
+.header {
+    padding: 30px 40px;
+}
+
+.header h2 {
+    font-weight: 600;
+    color: #ACBAE1;
+    font-size: 30px;
+}
+
+.form {
+    padding: 0 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #828CAD;
+}
+
+.form-control input{
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+
+.form-control textarea{
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
+
+    display: block;
+
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px;
+}
+.form-control.success input {
+    border: 3px solid #4ECA64;
+}
+.form-control.success textarea {
+  border: 3px solid #4ECA64;
+}
+
+.form-control.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-control.error textarea {
+  border: 3px solid #DB5A5A;
+}
+
+.form-control.error i.img-error {
+    visibility: visible;
+}
+
+.form-control.success i.img-success {
+    visibility: visible;
+}
+
+.form-control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.form button {
+    background-color: #6C63FF;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #584ff5;
+    transition: 0.3s;
+} 
+
+#botonArriba {
+    bottom: 10px;
+    right: 100px;
+    width: 25px;
+    transition: all 1s;
+}
